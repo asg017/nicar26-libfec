@@ -1,0 +1,10 @@
+[project]
+name = "nicar26-libfec"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasette-libfec>=0.0.1a13",
+    "libfec>=0.0.20",
+]
