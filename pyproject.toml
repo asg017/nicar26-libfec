@@ -6,5 +6,5 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "datasette-libfec>=0.0.1a13",
-    "libfec>=0.0.20",
+    "libfec>=0.0.27",
 ]
