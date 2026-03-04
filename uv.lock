@@ -297,12 +297,14 @@ wheels = [
 
 [[package]]
 name = "libfec"
-version = "0.0.20"
+version = "0.0.28"
 source = { registry = "https://pypi.org/simple" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f6/f7/b68d546414265ea9224fc73486523f77b0167ab9eaa4248c774fd1baaa5c/libfec-0.0.20-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:7383087baec349375c0c06ca646390e6b520f923efbad2e253c988cdcaad9edb", size = 6516765, upload-time = "2026-02-06T19:23:51.93Z" },
-    { url = "https://files.pythonhosted.org/packages/3e/3b/6aa66355fba2daabd9e1d418fbbb7ec503dcb49f7c900448492049aff1f4/libfec-0.0.20-py3-none-macosx_11_0_arm64.whl", hash = "sha256:92cc60adfb20bdf5da7634ded3a81aaf89346102c91a8f0c53a888689c1515b6", size = 6088731, upload-time = "2026-02-06T19:23:53.307Z" },
-    { url = "https://files.pythonhosted.org/packages/30/1a/681433e9f8b439f0bed2492c25efae4fd5761621c25bed86af86bed4f307/libfec-0.0.20-py3-none-manylinux_2_34_x86_64.whl", hash = "sha256:5388345d9436a5ef834aba18ed527571a89f7a36a6c6a83b799e2e704f070b4b", size = 6965674, upload-time = "2026-02-06T19:23:49.925Z" },
+    { url = "https://files.pythonhosted.org/packages/30/71/600ca1bb8675a9701744d28d77483469ad56771eeb5aceed0111bcc16741/libfec-0.0.28-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:132f4ffeb5c28b18b6c96944a18469549d4c526d7eaaf3a1ac6745c141a762d3", size = 6778425, upload-time = "2026-03-03T18:27:02.601Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/b6/3168614afc6316ec398cc7e86e4991d24e7dc0c099862bd2d0c643a7e967/libfec-0.0.28-py3-none-macosx_11_0_arm64.whl", hash = "sha256:35b49fd15fdf1e4f8136cc4d80f20bc25494f27558d084f8321d9ebe8f384081", size = 6346313, upload-time = "2026-03-03T18:27:00.821Z" },
+    { url = "https://files.pythonhosted.org/packages/39/6b/8ae1d23cbd17e751634df10ea1e19e198306ddbd2b5468aaa88d8e7ce20f/libfec-0.0.28-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:d0eea18f4f9b3b9c62dbe474be899d59b53b8504d95ed81bc48476c0dd7b31cf", size = 6870925, upload-time = "2026-03-03T18:26:57.338Z" },
+    { url = "https://files.pythonhosted.org/packages/b4/e1/4fda180daeabce5c693e0e2cb4cd55a4e8cb6e285df43a9b6585d4d73255/libfec-0.0.28-py3-none-manylinux_2_34_x86_64.whl", hash = "sha256:0cb3e4b02515a0f8243d5ae90c7f7b53a8232cff3a0c5963571de0df03aa3a70", size = 7245945, upload-time = "2026-03-03T18:26:55.169Z" },
+    { url = "https://files.pythonhosted.org/packages/66/6d/01e30d06da0ec06ca8a51c6c8afabcf74331351e57b25722ce2eb01703c0/libfec-0.0.28-py3-none-win_amd64.whl", hash = "sha256:3953288e8387ca71c72eebab8253570c5f4975875ea56a411d8a5f9be724d7d7", size = 6379414, upload-time = "2026-03-03T18:26:59.113Z" },
 ]
 
 [[package]]
@@ -378,7 +380,7 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "datasette-libfec", specifier = ">=0.0.1a13" },
-    { name = "libfec", specifier = ">=0.0.20" },
+    { name = "libfec", specifier = ">=0.0.28" },
 ]
 
 [[package]]
