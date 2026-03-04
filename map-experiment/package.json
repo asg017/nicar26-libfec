@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/d3-dsv": "^3.0.7",
     "typescript": "~5.9.3",
     "vite": "^7.3.1"
   },
   "dependencies": {
+    "d3-dsv": "^3.0.1",
     "maplibre-gl": "^5.19.0"
   }
 }

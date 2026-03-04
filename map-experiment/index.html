@@ -7,11 +7,27 @@
   </head>
   <body>
     <div id="controls">
-      Metric:
-      <select id="metric-select">
-        <option value="total_amount">$ Raised</option>
-        <option value="per_contributor">$ Raised / Contributor</option>
-      </select>
+      <div class="control-row">
+        <label>Candidate 1:
+          <select id="candidate1-select"></select>
+        </label>
+      </div>
+      <div class="control-row">
+        <label>Candidate 2:
+          <select id="candidate2-select">
+            <option value="">None (single candidate)</option>
+          </select>
+        </label>
+      </div>
+      <div class="control-row">
+        <label>Metric:
+          <select id="metric-select">
+            <option value="total_amount">$ Raised</option>
+            <option value="num_contributions"># Contributions</option>
+            <option value="per_contributor">$/Contributor</option>
+          </select>
+        </label>
+      </div>
     </div>
     <div id="legend"></div>
     <div id="map"></div>
