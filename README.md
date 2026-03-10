@@ -3,7 +3,7 @@
 This repo contains the code and tipsheet for the [*"Introducing libfec, a faster FEC filing parser"*](https://schedules.ire.org/nicar-2025/index.html#1175) class at [NICAR26](https://www.ire.org/training/conferences/nicar-2026/), happening on Thursday March 5th 2026 from 11:30am-12:30pm. 
 
 `libfec` and other campaign finance resources:
-
+- [Video version of this talk!](https://youtu.be/UdkQ5HEiF20)
 - The [`libfec` project on Github](https://github.com/asg017/libfec)
 - The [`libfec` Discussions page](https://github.com/asg017/libfec/discussions), share bug reports and ask for help here!
 - The [Introducing `libfec`](https://alexgarcia.xyz/blog/2025/introducing-libfec/index.html) blog post (October 2025), the  announcement of the first version of `libfec`
